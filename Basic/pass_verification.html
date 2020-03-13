@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        
+        function btn()
+        {
+
+            var usr = document.getElementById("txt").value;
+            var pass = document.getElementById("pass").value;
+
+            if(usr==pass)
+            {
+                alert("Signed Up Sucessfully");
+            }
+            else
+            {
+                alert("Wrong Input");
+            }
+        }
+        
+        </script>
+    </head>
+    <body>
+        <input id="txt" placeholder="Type Username">
+        <input id="pass" type="password" placeholder="Type Password">
+        <button onclick="btn()">Sign in</button>
+    </body>
+</html>
